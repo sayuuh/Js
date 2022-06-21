@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+    <h1>Notas de Alunos</h1>
+
+    <script>
+        var n1 = prompt("Qual a nota do Aluno 01? ")
+        var n2 = prompt("Qual a nota do Aluno 02? ")
+        var n3 = prompt("Qual a nota do Aluno 03? ")
+        var n4 = prompt("Qual a nota do Aluno 04? ")
+        var media
+
+        console.log("Nota do Aluno 01 é: " + n1)
+        console.log("Nota do Aluno 02 é: " + n2)
+        console.log("Nota do Aluno 03 é: " + n3)
+        console.log("Nota do Aluno 04 é: " + n4)
+
+        media = (Number.parseFloat(n1) + Number.parseFloat(n2) + Number.parseFloat(n3) + Number.parseFloat(n4)) / 4
+        console.log("A média dos Alunos é de: " + media)
+
+        console.log("Increment é = " + n1++)
+        console.log("Incrementado Aluno 01 - " + n1)
+
+        console.log("Decrementar - " + n2)
+        console.log("Decrement Aluno 02 = " + --n2)
+    </script>
+</body>
+</html>
