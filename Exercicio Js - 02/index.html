@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 02</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgba(0, 0, 0, 0.236);
+        }
+        header{
+            height: 50px;
+            text-align: center;
+            font-size: 25pt;
+            color: white;
+            background-color: black;
+        }
+        main{
+            width: 80%;
+            margin: auto;
+            background-color: #ccc;
+            padding: 10px;
+        }
+        main img{
+            width: 50%;
+            height: auto;
+            margin-left: 25%;
+        }
+        main p{
+            font-size: 20pt;
+            text-align: justify;
+        }
+        footer{
+            height: 30px;
+            background-color: black;
+            text-align: center;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span id="titulo">Exercicio 02</span>
+    </header>
+    <main>
+        <article>
+            <img src="assets/img/logoFundoAzulVGA.jpg" alt="">
+        </article>
+        <article>
+            <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum hic nam fugiat nobis nihil minima itaque ea ab reiciendis quisquam, perspiciatis doloremque, ipsam esse amet? Repellendus atque cumque commodi dignissimos.</p>
+            <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis nisi odit accusamus et fugit. Eaque cum assumenda iure molestias perspiciatis corporis modi aut. Quam nesciunt modi, fuga harum qui reiciendis!</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste ullam possimus. Molestiae, quos. Commodi voluptatibus provident hic nihil ratione. Fuga non blanditiis accusamus doloremque quo soluta! Nemo, qui quas.</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quibusdam, doloremque ratione, quaerat quis quidem explicabo ad recusandae est iusto facere magni enim? Cumque error minima placeat harum laborum voluptates!</p>
+        </article>
+    </main>
+    <footer id="final">
+        <a href="#">Js exercicio 02</a>
+    </footer>
+
+    <script>
+        var nome = document.getElementById("titulo")
+        console.log(nome)
+
+        var imagem = document.getElementsByTagName("img")
+        console.log(imagem)
+
+        var txt = document.getElementsByClassName("texto")
+        console.log(txt)
+
+        var rodape = document.getElementById("final")
+        console.log(rodape)
+    </script>
+</body>
+</html>
